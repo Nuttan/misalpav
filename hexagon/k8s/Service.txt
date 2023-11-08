@@ -20,6 +20,6 @@
    23  kubectl expose pod/pod1 --type=Loadbalancer --port=80 --target-port=80 -n hexa
    24  kubectl expose pod/pod1 --type=LoadBalancer --port=80 --target-port=80 -n hexa
    25  kubectl get svc -n hexa
-   26  kubectl expose pod/pod1 --name=pod1lb1 --type=Loadbalancer --external-ip=32.43.45.67 --port=80 --target-port=80 -n hexa
+   26  kubectl expose pod/pod1 --name=pod1lb1 --type=LoadBalancer --external-ip=32.43.45.67 --port=80 --target-port=80 -n hexa
    27  kubectl expose pod/pod1 --name=pod1lb1 --type=LoadBalancer --external-ip=32.43.45.67 --port=80 --target-port=80 -n hexa
    28  kubectl get svc -n hexa
